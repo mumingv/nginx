@@ -1,0 +1,9 @@
+[停止&启动Nginx]
+/usr/local/nginx/sbin/nginx -s stop -c /root/git/nginx/book_with_author_miaoze/chapter2/myweb/nginx.conf
+/usr/local/nginx/sbin/nginx -c /root/git/nginx/book_with_author_miaoze/chapter2/myweb/nginx.conf 
+
+[测试页面]
+http://123.56.21.232:8002/server2/location1/index.server2-location1.html
+http://123.56.21.232:8002/server2/location2/index.server2-location2.html
+http://123.56.21.232:8002/server2/location1/
+http://123.56.21.232:8002/server2/location2/
